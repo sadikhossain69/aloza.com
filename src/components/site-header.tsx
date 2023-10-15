@@ -12,7 +12,7 @@ export function SiteHeader() {
   return (
     <header className="bg-background sticky top-0 z-40 w-full border-b">
       <div className="container flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
-        <div>
+        <div className=" md:px-5">
           <Link to="/" className="flex items-center space-x-2">
             {/* <Icons.logo className="h-6 w-6" />
         <span className="inline-block font-bold">{siteConfig.name}</span> */}

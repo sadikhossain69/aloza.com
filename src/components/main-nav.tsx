@@ -10,7 +10,7 @@ interface MainNavProps {
 
 export function MainNav({ items }: MainNavProps) {
   return (
-    <div className="flex gap-6 md:gap-10 md:px-5">
+    <div className="flex gap-6 md:gap-10">
       
       {items?.length ? (
         <nav className="flex gap-6">
