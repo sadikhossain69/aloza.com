@@ -11,7 +11,7 @@ export default function Home(): ReactNode {
                     <h1 className={cn("title-font sm:text-5xl text-3xl font-bold text-[#3B3968] dark:text-white")}>Welcome to ALOZO Mobile <p className="leading-snug">Application!</p>
                     </h1>
 
-                    <p className={cn("text-xl my-4 dark:text-white")}>L'application mobile ALOZO est une application de proximité qui vous facilite la tâche dans votre recherche d'un artisan compétent dans votre zone de localisation. Trouvez un artisan dans notre vaste réseau en sélectionnant la spécialité que vous recherchez si vous recherchez des artisans professionnels
+                    <p className={cn("text-xl my-10 dark:text-white")}>L'application mobile ALOZO est une application de proximité qui vous facilite la tâche dans votre recherche d'un artisan compétent dans votre zone de localisation. Trouvez un artisan dans notre vaste réseau en sélectionnant la spécialité que vous recherchez si vous recherchez des artisans professionnels
                     </p>
                     <div className="flex justify-center">
                         {/* <button className={cn("inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg")}>Button</button>
