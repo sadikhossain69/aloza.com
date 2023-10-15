@@ -2,11 +2,14 @@ import { cn } from "@/lib/utils";
 import { ReactNode } from "react";
 import homeImg from "@/assets/home/home.png";
 import { Button } from "../ui/button";
+import About from "../common/about";
+import Footer from "../common/footer";
 
 export default function Home(): ReactNode {
     return (
-        <section className={cn("text-gray-600 body-font container")}>
-            <div className={cn("mx-auto  flex md:flex-row flex-col-reverse items-center")}>
+        <>
+            <section className={cn("text-gray-600 body-font container")}>
+            <div className={cn("mx-auto flex md:flex-row flex-col-reverse items-center")}>
                 <div className={cn("lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center pl-5")}>
                     <h1 className={cn("title-font sm:text-5xl text-3xl font-bold text-[#3B3968] dark:text-white")}>Welcome to ALOZO Mobile <p className="leading-snug">Application!</p>
                     </h1>
@@ -24,5 +27,8 @@ export default function Home(): ReactNode {
                 </div>
             </div>
         </section>
+        <About />
+        <Footer />
+        </>
     )
 }
