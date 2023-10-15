@@ -8,7 +8,7 @@ export default function Home(): ReactNode {
         <section className={cn("text-gray-600 body-font container")}>
             <div className={cn("mx-auto  flex md:flex-row flex-col-reverse items-center")}>
                 <div className={cn("lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center pl-5")}>
-                    <h1 className={cn("title-font sm:text-4xl text-3xl font-bold text-[#3B3968] dark:text-white")}>Welcome to ALOZO Mobile Application!
+                    <h1 className={cn("title-font sm:text-5xl text-3xl font-bold text-[#3B3968] dark:text-white")}>Welcome to ALOZO Mobile <p className="leading-snug">Application!</p>
                     </h1>
 
                     <p className={cn("text-xl my-4 dark:text-white")}>L'application mobile ALOZO est une application de proximité qui vous facilite la tâche dans votre recherche d'un artisan compétent dans votre zone de localisation. Trouvez un artisan dans notre vaste réseau en sélectionnant la spécialité que vous recherchez si vous recherchez des artisans professionnels
