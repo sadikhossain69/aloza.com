@@ -1,23 +1,26 @@
 import { cn } from "@/lib/utils";
 import { ReactNode } from "react";
-import homeImg from "@/assets/home/home.jpg";
+import homeImg from "@/assets/home/home.png";
+import { Button } from "../ui/button";
 
 export default function Home(): ReactNode {
     return (
-        <section className={cn("text-gray-600 body-font")}>
-            <div className={cn("container mx-auto flex px-5 py-24 md:flex-row flex-col items-center")}>
-                <div className={cn("lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center")}>
-                    <h1 className={cn("title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900")}>Before they sold out
-                        <br className="hidden lg:inline-block" />readymade gluten
+        <section className={cn("text-gray-600 body-font container")}>
+            <div className={cn("mx-auto  flex md:flex-row flex-col-reverse items-center")}>
+                <div className={cn("lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center pl-5")}>
+                    <h1 className={cn("title-font sm:text-4xl text-3xl font-bold text-[#3B3968] dark:text-white")}>Welcome to ALOZO Mobile Application!
                     </h1>
-                    <p className="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+
+                    <p className={cn("text-xl my-4 dark:text-white")}>L'application mobile ALOZO est une application de proximité qui vous facilite la tâche dans votre recherche d'un artisan compétent dans votre zone de localisation. Trouvez un artisan dans notre vaste réseau en sélectionnant la spécialité que vous recherchez si vous recherchez des artisans professionnels
+                    </p>
                     <div className="flex justify-center">
-                        <button className={cn("inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg")}>Button</button>
-                        <button className={cn("ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg")}>Button</button>
+                        {/* <button className={cn("inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg")}>Button</button>
+                        <button className={cn("ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg")}>Button</button> */}
+                        <Button size={"lg"} className={cn("bg-[#3A3767] uppercase dark:text-white hover:dark:text-black")}>Create You Own Account</Button>
                     </div>
                 </div>
-                <div className={cn("lg:max-w-lg lg:w-full md:w-1/2 w-5/6")}>
-                    <img className={cn("object-cover object-center rounded")} loading="lazy" alt="hero" src={homeImg} />
+                <div className={cn("lg:max-w-lg lg:w-full md:w-1/2 w-5/6 pr-5")}>
+                    <img className={cn("pt-14 rounded")} loading="lazy" alt="hero" src={homeImg} />
                 </div>
             </div>
         </section>
