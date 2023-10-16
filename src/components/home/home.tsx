@@ -3,6 +3,7 @@ import { ReactNode } from "react";
 import homeImg from "@/assets/home/home.png";
 import { Button } from "../ui/button";
 import About from "../common/about";
+import Gallery from "./gallery";
 
 export default function Home(): ReactNode {
     return (
@@ -27,6 +28,7 @@ export default function Home(): ReactNode {
                 </div>
             </section>
             <About />
+            <Gallery />
         </>
     )
 }
