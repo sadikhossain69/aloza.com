@@ -4,6 +4,7 @@ import homeImg from "@/assets/home/home.png";
 import { Button } from "../ui/button";
 import About from "../common/about";
 import Gallery from "./gallery";
+import Contact from "../contact";
 
 export default function Home(): ReactNode {
     return (
@@ -29,6 +30,7 @@ export default function Home(): ReactNode {
             </section>
             <About />
             <Gallery />
+            <Contact />
         </>
     )
 }
