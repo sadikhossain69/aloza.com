@@ -10,7 +10,7 @@ const Gallery = () => {
     return (
         <>
             <section className={cn("container text-gray-600 body-font")}>
-                <h1 className={cn("sm:text-5xl text-2xl font-bold title-font text-gray-700 lg:mb-0 mb-4 text-center dark:text-white")}>Gallery</h1>
+                <h1 className={cn("sm:text-5xl text-2xl font-bold title-font text-gray-700  mb-10 text-center dark:text-white uppercase")}>Gallery</h1>
                 <div className={cn("container px-5 py-10 mx-auto flex flex-wrap")}>
                     <div className={cn("flex flex-wrap md:-m-2 -m-1")}>
                         <div className="flex flex-wrap md:w-1/2">

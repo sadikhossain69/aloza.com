@@ -51,11 +51,11 @@ const Contact = () => {
 
     return (
         <>
-            <section className="container">
+            <section className="container mt-20">
                 <Form {...form}>
                     <div className={cn("md:w-3/5 mx-auto")}>
-                        <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6 border-2 rounded p-5">
-                            <h1 className="sm:text-5xl text-2xl font-bold title-font text-gray-700 lg:mb-0 mb-4 text-center dark:text-white">Contact</h1>
+                        <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6 border-2 rounded p-10">
+                            <h1 className="sm:text-5xl text-2xl font-bold title-font text-gray-700 lg:mb-0 mb-4 text-center dark:text-white uppercase">Contact</h1>
                             <FormField
                                 control={form.control}
                                 name="name"
